@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="sticky">
+            <div id="weather">
+            </div>
+
+            <div id="liveAge">
+                <input type="text" class="datepicker" id="dateOfBirth" placeholder="輸入你的生日">
+                <button class="btn-floating waves-effect waves-light"><i
+                        class="material-icons">arrow_forward</i></button>
+            </div>
+
+            <div class="input-field" id="centerSearch">
+                <i class="material-icons">search</i>
+                <input type="text" id="search" placeholder="Google搜尋" />
+            </div>
+            <h6>即時新聞</h6>
+        </div>
+        <table id="newsTable">
+        </table>
+        <br>
+        <button id="resetBday" class="right btn-small waves-effect waves-light grey"><i
+                class="material-icons right">cake</i>重設生日</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

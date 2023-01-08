@@ -1,0 +1,40 @@
+#weather {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+#liveAge {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#centerSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#liveAge h1 {
+    font-size: 144px;
+}
+
+#liveAge span {
+    font-size: 36px;
+}
+
+#dateOfBirth {
+    width: 150px;
+}
+
+.container {
+    width: 90vw;
+    max-width: 750px;
+}
+
+#sticky {
+    position: sticky;
+    top: 0px;
+    background-color: hsla(0, 0%, 100%, 0.9);
+}
