@@ -5,4 +5,4 @@ There are four functions on this page
 * Google search
 * Breaking news provide by LTN
 
-[See what's going on](https://ping-hsuan-yu.github.io/HomePage/)
+<a href="https://ping-hsuan-yu.github.io/HomePage/" target="_blank">See what's going on</a>
