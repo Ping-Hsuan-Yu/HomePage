@@ -39,6 +39,7 @@ function displayAge() {
     }, 100)
 }
 
+// location for weather
 function result(position) {
     let thisCoords = position.coords;
     let lat = thisCoords.latitude;
@@ -82,10 +83,11 @@ function loadWeatherData(lat, lon) {
         });
 };
 
+
+// for real-time news
 let rss2json = " https://api.rss2json.com/v1/api.json?rss_url=";
 $.getJSON(rss2json + "https://news.ltn.com.tw/rss/all.xml")
     .done(function (data) {
-        // debugger;
         for (let x = 0; x < data.items.length; x++) {
             let thisRow = `<tr>`;
             thisRow += `<td><a target='_blank' href='${data.items[x].link}'>${data.items[x].title}</a></td>`;
